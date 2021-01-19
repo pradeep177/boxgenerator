@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid;
+    position: absolute;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    flex-flow:row wrap;
+    width: 100%;
+}
+.boxes {
+    height:40px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+}
